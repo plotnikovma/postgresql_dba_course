@@ -1,0 +1,28 @@
+FUNCTION log(p_step_name    in varchar2,
+                 p_note         in varchar2 default null                                           )
+RETURNS INT AS
+$BODY$
+    DECLARE
+   sql_insert text;
+    BEGIN
+       begin --если вдруг случайно осталось соединение.
+      PERFORM dblink_disconnect('conn_name');
+         exception when others then
+          null;
+         end;
+    
+    sql_insert = '     insert into a1(R_LOG_DATE, R_STEP_NAME, NOTE, R_SID, R_SERIAL)
+                                      values (current_timestamp, [p_step_name], [p_note], [usr]);';
+
+    sql_insert = replace(sql_insert, '[p_step_name]', coalesce(p_step_name,''));
+    sql_insert = replace(sql_insert, '[p_note]', coalesce(p_note,''));
+    
+    sql_insert = replace(sql_insert, '[usr]', coalesce(user,''));
+
+    PERFORM dblink_connect('conn_name', 'conn_str');
+    PERFORM dblink('conn_name',sql_insert);
+    PERFORM dblink_disconnect('conn_name');
+    RETURN 0;
+  END;
+$BODY$
+  LANGUAGE plpgsql SECURITY DEFINER;
