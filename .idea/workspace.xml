@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d5f0b83-1784-4c65-a145-a7b5d7c7e03e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b53c6970ac628e34be507c06f46bf0c628bce9f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f54545b9f37fbe9cd10c303e75a66267cae76fde" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/b/2b53c6970ac628e34be507c06f46bf0c628bce9f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/5/f54545b9f37fbe9cd10c303e75a66267cae76fde" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.Блокировки/PG_Блокировки-59958-e75d9d.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.Блокировки/Блокировки-59958-26e649.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.Блокировки/ДЗ/10.Блокировки.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.Настройка PostgreSQL/12_PG_config_481289_c209b1-481289-ce3697.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.Настройка PostgreSQL/scriot_sql_133531_211096_481289_09fc5c-481289-b2bc92.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.Настройка PostgreSQL/script-133531-be6b6b.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.Настройка PostgreSQL/ДЗ/11.Нагрузочное тестирование и тюнинг PostgreSQL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.Журналы/09_PG_WAL-481289-ca11c5.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.Журналы/09_PG_WAL_481289_f1d964-481289-3458c9.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.Журналы/ДЗ/9.Работа с журналами.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.Журналы/ДЗ/Снимок экрана 2024-03-10 в 15.31.00.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.Журналы/ДЗ/9.Работа с журналами.md" beforeDir="false" afterPath="$PROJECT_DIR$/9.Журналы/ДЗ/9.Работа с журналами.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,31 +27,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/maksimplotnikov/naumen/study_projects/postgresql_dba_course",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "SQL Dialects",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maksimplotnikov/naumen/study_projects/postgresql_dba_course&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SQL Dialects&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "PostgreSQL"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;PostgreSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -98,6 +77,7 @@
       <workItem from="1710045394016" duration="1122000" />
       <workItem from="1710052153594" duration="13145000" />
       <workItem from="1710163389583" duration="3168000" />
+      <workItem from="1710258588266" duration="2374000" />
     </task>
     <servers />
   </component>
