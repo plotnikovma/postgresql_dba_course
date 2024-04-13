@@ -1,0 +1,68 @@
+20:00:04 From Андрей Васенёв To Everyone:
+	+
+20:00:06 From Yaroslav Ryapolov To Everyone:
+	+
+20:00:09 From Azimjanov To Everyone:
+	+
+20:00:13 From MIRKIN Alexander To Everyone:
+	+
+20:00:13 From Aleksandr Kuznetsov To Everyone:
+	+
+20:11:28 From Андрей Васенёв To Everyone:
+	O(n^2)
+20:11:42 From Андрей Васенёв To Everyone:
+	* n*m
+20:11:45 From Ilia Kriachkov To Everyone:
+	n*m
+20:12:25 From Aleksandr Kuznetsov To Everyone:
+	добавить ключи для связки
+20:12:35 From Андрей Васенёв To Everyone:
+	есть, если данные в массивах отсортированы
+20:12:46 From Андрей Васенёв To Everyone:
+	или как-то ещё подготовлены (не лежат в случайном порядке)
+20:13:07 From Ilia Kriachkov To Everyone:
+	Хеш таблицей 😃
+20:18:25 From Mamaev Konstantin To Everyone:
+	мало строк
+20:18:29 From Ilia Kriachkov To Everyone:
+	Мало кортежей
+20:21:36 From Mamaev Konstantin To Everyone:
+	-
+20:22:04 From Ilia Kriachkov To Everyone:
+	Хеш функция - это функция, которая принимает строку и возвращает число или значение. Хеш функции должны быть быстрыми и равномерно распределенными, чтобы уменьшить количество коллизий.
+20:27:17 From Ilia Kriachkov To Everyone:
+	По затратам
+20:32:33 From Ilia Kriachkov To Everyone:
+	Сортировка
+20:33:03 From Ilia Kriachkov To Everyone:
+	сортировка слиянием
+20:44:55 From Vadim Volkov To Everyone:
+	правда если придется джойнить таблицу саму с сабой - без алиасов будет не обойтись
+20:47:44 From Ilia Kriachkov To Everyone:
+	Чтобы выбрать модели без водителя например
+20:50:52 From Vadim Volkov To Everyone:
+	-
+20:50:55 From Андрей Васенёв To Everyone:
+	-
+20:50:59 From Aleksandr Kuznetsov To Everyone:
+	-
+20:53:39 From Vadim Volkov To Everyone:
+	а чем от CTE (Common Table Experssion) отличается?
+20:54:52 From Ilia Kriachkov To Everyone:
+	Какой будет explain если lateral вынести в cte?
+20:57:17 From Vadim Volkov To Everyone:
+	с одинаковой структурой
+20:57:24 From Ilia Kriachkov To Everyone:
+	Структура колонок одна
+21:03:13 From Дмитрий Борисов To Everyone:
+	нееееее
+21:06:35 From Лана To Everyone:
+	Спасибо!
+21:07:20 From Кирилл Писенко To Everyone:
+	Спасибо!
+21:07:21 From Ilia Kriachkov To Everyone:
+	+
+21:07:23 From Mamaev Konstantin To Everyone:
+	Спасибо!
+21:07:32 From Yaroslav Ryapolov To Everyone:
+	Спасибо!
