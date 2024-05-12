@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d5f0b83-1784-4c65-a145-a7b5d7c7e03e" name="Changes" comment="" />
+    <list default="true" id="1d5f0b83-1784-4c65-a145-a7b5d7c7e03e" name="Changes" comment="final work" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,34 +40,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/maksimplotnikov/naumen/study_projects/postgresql_dba_course",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "SQL Dialects",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maxim/naumen/study_projects/postgresql_dba_course&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SQL Dialects&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "PostgreSQL"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;PostgreSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/23.Финальная работа/postgres_air-main/backup" />
+      <recent name="$PROJECT_DIR$/23.Финальная работа" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/19.Секционирование" />
     </key>
@@ -75,8 +77,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -102,6 +104,19 @@
       <workItem from="1713029576792" duration="1311000" />
       <workItem from="1713151030453" duration="18000" />
       <workItem from="1714721389449" duration="30088000" />
+      <workItem from="1714917384685" duration="42000" />
+      <workItem from="1715356187456" duration="14850000" />
+      <workItem from="1715864104687" duration="4778000" />
+      <workItem from="1715951699650" duration="521000" />
+      <workItem from="1716221018788" duration="2365000" />
+      <workItem from="1716483842839" duration="689000" />
+      <workItem from="1717329731077" duration="2369000" />
+      <workItem from="1718373734311" duration="7250000" />
+      <workItem from="1718528646726" duration="3512000" />
+      <workItem from="1718640442272" duration="1070000" />
+      <workItem from="1718646408263" duration="396000" />
+      <workItem from="1718646883620" duration="88000" />
+      <workItem from="1718646984302" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="Репликация">
       <option name="closed" value="true" />
@@ -167,7 +182,63 @@
       <option name="project" value="LOCAL" />
       <updated>1714917203139</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="final work">
+      <option name="closed" value="true" />
+      <created>1715508354261</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715508354261</updated>
+    </task>
+    <task id="LOCAL-00010" summary="final work">
+      <option name="closed" value="true" />
+      <created>1715521954036</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715521954036</updated>
+    </task>
+    <task id="LOCAL-00011" summary="final work">
+      <option name="closed" value="true" />
+      <created>1715866740874</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715866740875</updated>
+    </task>
+    <task id="LOCAL-00012" summary="final work">
+      <option name="closed" value="true" />
+      <created>1715875605022</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715875605022</updated>
+    </task>
+    <task id="LOCAL-00013" summary="final work">
+      <option name="closed" value="true" />
+      <created>1716223536393</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716223536393</updated>
+    </task>
+    <task id="LOCAL-00014" summary="final work">
+      <option name="closed" value="true" />
+      <created>1717340624694</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717340624694</updated>
+    </task>
+    <task id="LOCAL-00015" summary="final work">
+      <option name="closed" value="true" />
+      <created>1718646657820</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718646657820</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,8 +256,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Репликация" />
     <MESSAGE value="джоины" />
-    <option name="LAST_COMMIT_MESSAGE" value="джоины" />
+    <MESSAGE value="final work" />
+    <option name="LAST_COMMIT_MESSAGE" value="final work" />
   </component>
 </project>
